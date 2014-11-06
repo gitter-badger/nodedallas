@@ -14,9 +14,13 @@ What's a NodeSchool?
 * NodeSchool workshoppers (problem sets): http://nodeschool.io/#workshoppers
 
 
+
+![Nodeschool](https://raw.githubusercontent.com/leongaban/nodedallas/master/assets/images/nodeschool-logo.png)
+
 ###More about NodeSchool
 * NodeUp Podcast discussing NodeSchool: http://nodeup.com/
 * Teach Your Way to Becoming a Better Programmer: https://medium.com/social-tables-tech/teach-your-way-to-becoming-a-better-programmer-135c6aca5968
+
 
 
 ![Nodes logo](https://raw.githubusercontent.com/leongaban/nodedallas/master/assets/images/node-logo.png)
