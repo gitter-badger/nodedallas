@@ -1,0 +1,29 @@
+/* TEAM */
+              
+Your title: NodeDallas
+                            
+Site: http://nodedallas.io
+                            
+Twitter: @paulinhorocha @leongaban
+                            
+Location: Dallas, TX USA.
+
+                         
+						
+							
+/* THANKS */
+							
+Name: http://nodeschool.io
+
+						
+                 
+                            
+/* SITE */
+
+Last update: 2014
+                            
+Standards: HTML5, CSS3,..
+                            
+Components: Modernizr, Angular, Node, jQuery, SASS,...
+
+Software: Sublime Text 2, Codekit, Transmit, Github, Slack...

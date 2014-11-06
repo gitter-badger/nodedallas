@@ -1,6 +1,6 @@
 Nodeschool Dallas
 ======
-Dallas chapter website: http://nodedallas.io/
+<strong>Dallas chapter website: http://nodedallas.io/ (We love the MEAN stack http://mean.io/)</strong>
 
 NodeSchool is an open source project run by volunteers with two goals: to create high quality programming curriculum and to host community learning events.
 
