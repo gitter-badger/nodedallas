@@ -1,7 +1,7 @@
 /*=================================================================
 Nodeschool Dallas Master Stylesheet
-http://nodedallas.io
-@
+http://nodedallas.io | http://nodeschool.io
+@leongaban @paulinhorocha
 ===================================================================
 
 stylesheets/
@@ -21,14 +21,14 @@ stylesheets/
 |   	|-- footer
 |   	...
 |
-|   |-- _png      	   		    # not built yet, needed for older browsers
+|   |-- _png					# not built yet, needed for older browsers
 |   |-- _queries
 |
 |-- vendors/            	    # CSS or from other projects
 |   |-- _normalize      	    # http://necolas.github.io/normalize.css
 |   ...
 |
-`-- nodedallas				    # Primary Sass file
+`-- nodedallas					# Primary Sass file
 */
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /**
@@ -512,64 +512,111 @@ body {
 .container {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000321}}
 .hello {
   margin: 5% auto;
-  width: 320px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000326}}
-  .hello img {
-    margin: 20px 0; }
+  width: 360px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000329}}
-h1 {
-  font-weight: 900;
-  font-size: 2em;
-  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000326}}
+.logo {
+  margin: 20px 0;
+  -webkit-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000330}}
+  .logo:hover {
+    transform: rotate(360deg); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000335}}
-p {
-  font-family: 'Source Code Pro', sans-serif;
-  font-weight: 300;
-  color: #f8f8f8;
-  line-height: 1.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000341}}
-  p em {
-    font-family: 'Source Code Pro', sans-serif;
-    font-weight: 500; }
+h1, h2 {
+  font-weight: 900;
+  text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000340}}
+h1 {
+  font-size: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000342}}
+h2 {
+  font-size: 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000344}}
+.code_block {
+  width: 340px;
+  height: 70px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-transition: background 0.3s ease-in-out;
+  -ms-transition: background 0.3s ease-in-out;
+  -o-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000350}}
+  .code_block:hover {
+    cursor: text;
+    background: #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000355}}
+  .code_block p {
+    position: absolute;
+    padding: 12px 20px;
+    width: 360px;
+    height: 80px;
+    font-family: 'Source Code Pro', sans-serif;
+    font-size: 0.875em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #ccc;
+    -webkit-transition: letter-spacing 0.4s ease-in-out;
+    -ms-transition: letter-spacing 0.4s ease-in-out;
+    -o-transition: letter-spacing 0.4s ease-in-out;
+    transition: letter-spacing 0.4s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000367}}
+    .code_block p em {
+      font-family: 'Source Code Pro', sans-serif;
+      font-weight: 500; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000372}}
+    .code_block p:hover {
+      letter-spacing: .5px;
+      color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000379}}
 footer {
   position: fixed;
   left: 0px;
-  bottom: 0px;
+  bottom: 20px;
   width: 100%;
-  height: 30px;
-  color: #ddd;
+  height: 40px;
+  line-height: 1.5em;
+  color: #333;
   font-size: 0.875em;
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000390}}
+  footer p {
+    margin: 0 auto;
+    width: 360px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000395}}
   footer a {
     font-weight: 700;
-    color: #BED88C; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000360}}
+    color: #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000398}}
     footer a:hover {
       color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\00003105}}
 ::-webkit-scrollbar {
   width: 12px; }
 
 /* Track */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\00003108}}
 ::-webkit-scrollbar-track {
   background: #ebebeb; }
 
 /* Handle */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\00003111}}
 ::-webkit-scrollbar-thumb {
   background: #994fb9; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\00003112}}
 ::-webkit-scrollbar-thumb:window-inactive {
   background: #994fb9; }
 

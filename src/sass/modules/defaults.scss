@@ -16,50 +16,89 @@ body {
 	background: darken($purple, 10%);
 }
 
-.container {
-	width: 100%;
-}
+.container { width: 100%; }
 
 .hello {
 	margin: 5% auto;
-	width: 320px;
-	img { margin: 20px 0; }
+	width: 360px;
 }
 
-h1 {
+.logo {
+	margin: 20px 0;
+	@include transition(all, 1s, ease-in-out);
+
+	&:hover {
+		transform:rotate(360deg);
+	}
+}
+
+h1, h2 {
 	font-weight: 900;	
-	font-size: em(32);
 	text-align: center;
 }
 
-p {
-	font-family: 'Source Code Pro', sans-serif;
-	font-weight: 300;
-	color: #f8f8f8;
-	line-height: em(24);
+h1 { font-size: em(32); }
 
-	em {
+h2 { font-size: em(24); }
+
+.code_block {
+	width: 340px;
+	height: 70px;
+	@include rounded(6px);
+	@include transition(background, .3s, ease-in-out);
+
+	&:hover {
+		cursor: text;
+		background: #333;
+	}
+
+	p {
+		position: absolute;
+		padding: 12px 20px;
+		width: 360px;
+		height: 80px;
 		font-family: 'Source Code Pro', sans-serif;
-		font-weight: 500;
+		font-size: em(14);
+		font-weight: 300;
+		line-height: em(24);
+		color: #ccc;
+		@include transition(letter-spacing, .4s, ease-in-out);
+
+		em {
+			font-family: 'Source Code Pro', sans-serif;
+			font-weight: 500;
+		}
+
+		&:hover {
+			letter-spacing: .5px;
+			color: #fff;
+		}
 	}
 }
 
 footer {
 	position:fixed;
-	left:0px;
-	bottom:0px;
-	width:100%;
-	height:30px;
-	color: #ddd;
+	left: 0px;
+	bottom: 20px;
+	width: 100%;
+	height: 40px;
+	line-height: em(24);
+	color: #333;
 	font-size: em(14);
 	text-align: center;
 
+	p {
+		margin: 0 auto;
+		width: 360px;
+	}
+
 	a {
 		font-weight: 700;
-		color: $green1;
+		color: #333;
 		&:hover { color: #fff; }
 	}
 }
+
 
 // Blue scrollbar:
 // http://css-tricks.com/examples/WebKitScrollbars/
