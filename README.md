@@ -19,6 +19,8 @@ What's a NodeSchool?
 * Teach Your Way to Becoming a Better Programmer: https://medium.com/social-tables-tech/teach-your-way-to-becoming-a-better-programmer-135c6aca5968
 
 
+![Nodes logo](https://raw.githubusercontent.com/leongaban/nodedallas/master/assets/images/node.svg)
+
 Get Node Up and Running
 ------
 * nvm: https://github.com/creationix/nvm
